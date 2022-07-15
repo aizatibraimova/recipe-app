@@ -1,4 +1,4 @@
-function MyRecipesComponent({label, image, diet, ingredients, link, showMore}) {
+function MyRecipesComponent({label, image, diet, ingredients, link}) {
     
     
 
@@ -25,12 +25,6 @@ function MyRecipesComponent({label, image, diet, ingredients, link, showMore}) {
             </ul>
             </div>
 
-            {/* <div>
-                <p>
-                    {showMore ? ingredients :ingredients.substring(0, 220)}
-                    <button onClick ={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>
-                </p>
-            </div> */}
 
             <div className="container">
                 <a href={link}><button className="instructions">Cooking Instructions</button></a>
