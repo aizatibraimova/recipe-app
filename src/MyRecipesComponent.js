@@ -17,13 +17,13 @@ function MyRecipesComponent({label, image, diet, ingredients, link}) {
                 <img className="foodpic" src={image} width="300px" alt="food"/>
             </div>
             
-            <div className="container">
-            <ul>
+            
+            <ul className="list">
                 {ingredients.map(ingredient => (
                     <li><img src="https://img.icons8.com/ios-filled/2x/checked.png" className="icon" alt="icon"/>{ingredient}</li>
                 ))}
             </ul>
-            </div>
+            
 
 
             <div className="container">
